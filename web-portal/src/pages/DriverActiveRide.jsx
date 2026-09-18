@@ -79,7 +79,6 @@ const DriverActiveRide = () => {
   }, []);
 
   
-
   useEffect(() => {
     const fetchRide = async () => {
       try {
