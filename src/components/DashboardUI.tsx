@@ -11,6 +11,7 @@ const DashboardUI = ({
   activePasses,
   onNotificationPress,
   onProfilePress,
+  onMyBookingsPress,
   onBookRide, 
   onBuyPass, 
   onSearchClick,
@@ -96,7 +97,7 @@ const DashboardUI = ({
           </AnimatedTouchable>
 
           {/* Action 4 */}
-          <AnimatedTouchable style={styles.quickActionCard} onPress={onProfilePress}>
+          <AnimatedTouchable style={styles.quickActionCard} onPress={onMyBookingsPress}>
             <View style={styles.quickActionIconWrapper}>
               <Ionicons name="calendar-outline" size={26} color={colors.accent} />
             </View>
